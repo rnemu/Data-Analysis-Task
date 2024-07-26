@@ -13,23 +13,19 @@ This notebook contains code demonstrating different types of joins between two D
 - Outer Join
 
 ### Task_2.ipynb
-This notebook contains code to connect Python with an SQL database using the `sqlite3` library. It demonstrates how to:
+This notebook contains code to connect Python with an SQL database using the `mysql.connector` library. It demonstrates how to:
 
 - Establish a connection to an SQL database
 - Create tables
 - Insert data into tables
 - Query data from tables
-- Close the connection to the database
+
 
 ## Getting Started
 
-To run the notebooks, you will need to have Python installed along with the following packages:
+To run the notebooks, you will need to have Python installed .
 
-- pandas
-- sqlite3
-- Jupyter Notebook
-
-You can install the required packages using pip:
+You can install the required mysql connecter packages using pip:
 
 ```sh
-pip install pandas jupyter
+pip install mysql-connector-python
